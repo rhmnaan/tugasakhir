@@ -1,0 +1,143 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+.fContainer-header {
+    background: rgb(226, 225, 225);
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fContainer-header .nameweb {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.nameweb .firstname {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.nameweb .lastname {
+    color: crimson;
+    padding-left: 4px;
+    font-weight: 500;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.navigation  > li > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+/* HEADER END */
+
+
+/* CONTENT */
+
+.container-content {
+    background: black;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.run-image {
+    width: 100%;
+    height: 600px;
+}
+
+.container-content2 {
+    margin-top: 130px;
+    background: cyan;
+    width: 100%;
+    height: 80vh;
+
+}
+
+.fcontainer-card {
+    background: rgb(255, 140, 0);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    background: red;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.card2 {
+    background: blue;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.card3 {
+    background: green;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.card4 {
+    background: aqua;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+
+/* CONTENT END */
+
+
+/* FOOTER */
+
+.fcontainer-footer {
+    background: #222;
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+/* FOOTER END */
+
+
+
+
+
+
+
+
+
+
